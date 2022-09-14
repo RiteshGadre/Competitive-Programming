@@ -3,25 +3,25 @@
 using namespace std;
 //******************Define Part******************
 #define int 			long long int
-#define lld				long long double
+#define lld			long long double
 #define MOD1			1000000007
-#define INF				1e18
+#define INF			1e18
 #define endl 			"\n"
-#define pb 			  	push_back
+#define pb 		  	push_back
 #define ppb 			pop_back
-#define mps				make_pair
-#define ff 				first
-#define ss 				second
+#define mps			make_pair
+#define ff 			first
+#define ss 			second
 #define all(v) 			v.begin(), v.end()
 #define allr(v) 		v.end(), v.begin()
-#define forrev(i,a,n)	for(int i=n-1; i>=a; i--) 
-#define forn(i,a,n) 	for(int i=a; i<n; i++)
+#define forrev(i,a,n)		for(int i=n-1; i>=a; i--) 
+#define forn(i,a,n) 		for(int i=a; i<n; i++)
 #define sz(x) 			(int)x.size()
 #define debug(x) 		cerr << x << " " ;
 #define capital(a) 		transform(all(a),a.begin(), :: toupper)
 #define small(a) 		transform(all(a),a.begin(), :: tolower)
-#define yy 				cout << "YES" << endl
-#define nn 				cout << "NO" << endl
+#define yy 			cout << "YES" << endl
+#define nn 			cout << "NO" << endl
 #define bitc(x)			_builtin_popcount(x)
 
 template<typename T>
