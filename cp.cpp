@@ -116,49 +116,7 @@ void file_IO(){
 
 
 void solve(){
-	int n; cin >> n;
-	string s; cin >> s;
-	string ans= "";
-	int num= stoi(s);
-	cout << num << endl;
-	vector<int> arr;
-	int i=2;
-	for(; i<sz(s); i++){
-		string temp= "";
-		temp.pb(s[i-2]);
-		if(s[i]=='0') temp.pb(s[i-1]);
-		int num= stoi(temp);
-		arr.push_back(num);
-	}
-
-	// for(; i<n-2; ){
-	// 	string temp= "";
-	// 	temp.pb(s[i]);
-	// 	temp.pb(s[i+1]);
-	// 	temp.pb(s[i+2]);
-	// 	int num;
-	// 	if(temp.back()=='0'){
-	// 		temp.ppb();
-	// 		num= stoi(temp);
-	// 		i+= 3;
-	// 	}
-	// 	else {
-	// 		temp.ppb();
-	// 		temp.ppb();
-	// 		num= stoi(temp);
-	// 		i++;
-	// 	}
-	// 	arr.push_back(num);
-	// }
-
-	// arr.push_back(s[i]-'0');
-	// arr.push_back(s[i+1]-'0');
-	for(auto it : arr){
-		ans+= 'a'+ it - 1;
-	}
-	cout << arr << endl;
-	cout << ans << endl;
-
+	
 }
 
 int32_t main(){
